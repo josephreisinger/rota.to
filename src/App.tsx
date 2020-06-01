@@ -44,6 +44,27 @@ const sites = [
     name: 'George Floyd Memorial Fund',
     url: 'https://www.gofundme.com/f/georgefloyd',
   },
+  {
+    name: 'Richmond Community Bail Fund',
+    url: 'https://rvabailfund.org/donate',
+  },
+  {
+    name: 'Chicago Community Bond Fund',
+    url: 'https://chicagobond.org/donate/',
+  },
+  {
+    name: '(F)empower Community Bond Fond',
+    url: 'https://linktr.ee/fempowermia',
+  },
+  {
+    name: 'Atlanta Solidarity Fund',
+    url:
+      'https://actionnetwork.org/fundraising/support-justiceforgeorgefloyd-protesters-in-atlanta',
+  },
+  {
+    name: 'Philadelphia Community Bail Fund',
+    url: 'https://phillybailout.com/donate',
+  },
 ];
 
 shuffle(sites);
@@ -197,6 +218,14 @@ function App() {
           rel="noopener noreferrer">
           [3]
         </a>
+        ,{' '}
+        <a
+          href="https://docs.google.com/document/u/1/d/1fb2cioBcCO47L_oGPsjdGVWDAc3RTHU2tIpDtekWKs0/mobilebasic#heading=h.1xjoly1h25g3"
+          target="_blank"
+          rel="noopener noreferrer">
+          [4]
+        </a>
+        .
       </footer>
     </div>
   );
