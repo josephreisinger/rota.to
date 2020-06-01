@@ -65,6 +65,10 @@ const sites = [
     name: 'Philadelphia Community Bail Fund',
     url: 'https://phillybailout.com/donate',
   },
+  {
+    name: 'Bay Area Anti-Repression Committee Bail Fund',
+    url: 'https://rally.org/ARCbailfund',
+  },
 ];
 
 shuffle(sites);
@@ -232,3 +236,4 @@ function App() {
 }
 
 export default App;
+// https://bailfunds.github.io/
